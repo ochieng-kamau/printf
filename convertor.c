@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * convert - converts number and base into string
@@ -24,4 +24,4 @@ char *convert(unsigned long int num, int base, int lowercase)
 	} while (num != 0);
 
 	return (ptr);
-}
+}	
